@@ -3,6 +3,7 @@ Description
 -----------------
 This project is the implementation for Hackerboxes #24 using OpenCV and Python instead of Processing.   I had too much pain trying to get all the right versions of OpenCV, Java, Processing, etc. to work and realized that it was only a few python modules that cleanly installed on my Windows System.
 
+Also, you can 3D print this camera mount to hold the camera on top of the Pan/Tilt mechanism: https://www.thingiverse.com/thing:2683961
 
 Installation 
 -------------------------
