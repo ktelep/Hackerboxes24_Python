@@ -17,10 +17,12 @@ You also will need to install pySerial, also via pip.
 
 Configuration
 --------------------------
-0.  Connect everything via USB to your PC (Camera and Arduino)
-1.  Upload the ino file to your Arduino, note the COM port
-2.  Set the serial port and speed in the top of the cap_test.py file
-3.  Start the python script
+1.  Connect everything via USB to your PC (Camera and Arduino)
+2.  Upload the ino file to your Arduino, note the COM port
+3.  Set the serial port and speed in the top of the cap_test.py file
+4.  Start the python script
+
+Note:  You cannot have the serial monitor open in Arduino while you are running the python script.  Only one app per serial port at a time!
 
 The Servo should exercise itself, the expectation is that 90 degrees is straight up and down, you may need to move the upper U shaped bar on the servo spindle to compensate for this, or you can muck with the code to fix.
 
